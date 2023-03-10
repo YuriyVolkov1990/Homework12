@@ -7,6 +7,7 @@ public class Main {
 
         warAndPeace.bookName = "Война и Мир";
         System.out.println("Название - " + warAndPeace.bookName);
+
         warAndPeace.publishingYear = 1867;
         System.out.println("Год - " + warAndPeace.publishingYear);
     }
