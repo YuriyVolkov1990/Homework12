@@ -13,23 +13,15 @@ public class Main {
 
         System.out.println();
         Person sarah = new Person();
-        // Тип переменной — Person (Личность)
         sarah.name = "Sarah";
-        // Внутри свойства name записали имя
         System.out.println("sarah.name = " + sarah.name);
-        // Вывели свойство «имя» в консоль
         sarah.age = 30;
-        // Внутри свойства age записали возраст
         System.out.println("sarah.age = " + sarah.age);
-        // Вывели свойство «возраст» в консоль
     }
 
     public static class Person {
-        // Создали новый класс Person (Личность)
         String name;
-        // Объявили свойство name (имя)
         int age;
-        // Объявили свойство age (возраст)
     }
 }
     class Book {
