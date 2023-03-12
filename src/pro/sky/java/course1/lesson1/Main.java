@@ -7,6 +7,11 @@ public class Main {
         Author author1 = new Author("Лев", "Толстой");
         Book book = new Book("Мастер и Маргарита", author, 1932);
         Book book1 = new Book("Война и Мир", author1, 1850);
-        System.out.println("Автор: ");
+        System.out.println("Автор: " + author.getAuthorName() + " " + author.getAuthorSurname());
+        System.out.printlnsurname("Книга: " + book.getBookName());
+        System.out.println("Год публикации: " + book.getYearPublishing());
+        System.out.println("Автор: " + author1.getAuthorName() + " " + author1.getAuthorSurname());
+        System.out.println("Книга: " + book1.getBookName());
+        System.out.println("Год публикации: " + book1.getYearPublishing());
     }
 }
