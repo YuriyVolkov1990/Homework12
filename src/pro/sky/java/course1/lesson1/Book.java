@@ -4,7 +4,7 @@ public class Book {
     private String bookName;
     private Author createAuthor;
     private int yearPublishing;
-    public Book() {
+    public Book(String bookName, Author createAuthor, int yearPublishing) {
         this.bookName = bookName;
         this.createAuthor = createAuthor;
         this.yearPublishing = yearPublishing;
@@ -21,10 +21,10 @@ public class Book {
     public int getYearPublishing() {
         return yearPublishing;
     }
-    public static Book createBook(String bookName, Author authorName, int yearPublishing) {
+    public static Book createBook(String bookName, Author createAuthor, int yearPublishing) {
         Book book = new Book();
         book.bookName = bookName;
-        book.createAuthor = authorName;
+        book.createAuthor = createAuthor;
         book.yearPublishing = yearPublishing;
         return book;
     }

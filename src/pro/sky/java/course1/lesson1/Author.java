@@ -3,11 +3,10 @@ package pro.sky.java.course1.lesson1;
 public class Author {
     private String authorName;
     private String authorSurname;
-    public Author() {
+    public Author(String authorName,String authorSurname) {
         this.authorName = authorName;
         this.authorSurname = authorSurname;
     }
-
 
     public static Author createAuthor(String authorName, String authorSurname) {
         Author author = new Author();
