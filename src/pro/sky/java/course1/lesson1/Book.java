@@ -21,6 +21,16 @@ public class Book {
     public int getYearPublishing() {
         return yearPublishing;
     }
+    public void setBookName(String bookName) {
+        this.bookName = bookName;
+    }
+
+    public void setCreateAuthor(Author createAuthor) {
+        this.createAuthor = createAuthor;
+    }
+    public void setYearPublishing(int yearPublishing) {
+        this.yearPublishing = yearPublishing;
+    }
     public static Book createBook(String bookName, Author createAuthor, int yearPublishing) {
         Book book = new Book(bookName, createAuthor, yearPublishing);
         book.bookName = bookName;
