@@ -2,16 +2,15 @@ package pro.sky.java.course1.lesson1;
 
 public class Author {
     private String authorName;
-
-    public Author(String authorName) {
+    private String authorSurname;
+    public Author(String authorName, String authorSurname) {
         this.authorName = authorName;
+        this.authorSurname = authorSurname;
     }
-    public Author getAuthorName() {
-        return Author.createAuthor(this.authorName);
+    public String getAuthorName() {
+        return authorName;
     }
-    public static Author createAuthor(String authorName) {
-        Author author = new Author(authorName);
-        author.authorName = authorName;
-        return author;
+    public String getAuthorSurname() {
+        return authorSurname;
     }
 }

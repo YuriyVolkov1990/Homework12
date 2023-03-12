@@ -22,11 +22,4 @@ public class Book {
     public void setYearPublishing(int yearPublishing) {
         this.yearPublishing = yearPublishing;
     }
-    public static Book createBook(String bookName, Author authorName, int yearPublishing) {
-        Book book = new Book(bookName,authorName, yearPublishing);
-        book.bookName = bookName;
-        book.authorName = authorName;
-        book.yearPublishing = yearPublishing;
-        return book;
-    }
 }
