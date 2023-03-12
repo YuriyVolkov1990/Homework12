@@ -2,7 +2,7 @@ package pro.sky.java.course1.lesson1;
 import java.util.Scanner;
 
 public class Main {
-    public static void main() {
+    public static void main(String[] args) {
         Scanner n = new Scanner(System.in);
         System.out.println("Имя автора:");
         String name = n.nextLine();
