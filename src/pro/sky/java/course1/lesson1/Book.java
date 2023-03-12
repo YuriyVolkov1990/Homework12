@@ -4,22 +4,22 @@ public class Book {
     private String bookName;
     private Author createAuthor;
     private int yearPublishing;
-    public Book(String bookName, Author createAuthor, int yearPublishing) {
+    public Book() {
         this.bookName = bookName;
         this.createAuthor = createAuthor;
         this.yearPublishing = yearPublishing;
     }
 
     public String getBookName() {
-        return this.bookName;
+        return bookName;
     }
 
     public Author getCreateAuthor() {
-        return this.createAuthor;
+        return createAuthor;
     }
 
     public int getYearPublishing() {
-        return this.yearPublishing;
+        return yearPublishing;
     }
     public static Book createBook(String bookName, Author authorName, int yearPublishing) {
         Book book = new Book();

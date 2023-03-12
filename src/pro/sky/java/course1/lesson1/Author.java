@@ -3,7 +3,7 @@ package pro.sky.java.course1.lesson1;
 public class Author {
     private String authorName;
     private String authorSurname;
-    public Author(String authorName,String authorSurname) {
+    public Author() {
         this.authorName = authorName;
         this.authorSurname = authorSurname;
     }
