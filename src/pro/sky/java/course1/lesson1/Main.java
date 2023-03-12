@@ -13,5 +13,7 @@ public class Main {
         System.out.println("Автор: " + author1.getAuthorName() + " " + author1.getAuthorSurname());
         System.out.println("Книга: " + book1.getBookName());
         System.out.println("Год публикации: " + book1.getYearPublishing());
+        book.setYearPublishing(2023);
+        System.out.println("Новый год публикации: " + book.getYearPublishing());
     }
 }
