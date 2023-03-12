@@ -7,9 +7,15 @@ public class Author {
         this.authorName = authorName;
         this.authorSurname = authorSurname;
     }
+    public String getAuthorName() {
+        return authorName;
+    }
 
+    public String getAuthorSurname() {
+        return authorSurname;
+    }
     public static Author createAuthor(String authorName, String authorSurname) {
-        Author author = new Author();
+        Author author = new Author(authorName, authorSurname);
         author.authorName = authorName;
         author.authorSurname = authorSurname;
         return author;

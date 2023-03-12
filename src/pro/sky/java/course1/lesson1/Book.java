@@ -22,7 +22,7 @@ public class Book {
         return yearPublishing;
     }
     public static Book createBook(String bookName, Author createAuthor, int yearPublishing) {
-        Book book = new Book();
+        Book book = new Book(bookName, createAuthor, yearPublishing);
         book.bookName = bookName;
         book.createAuthor = createAuthor;
         book.yearPublishing = yearPublishing;
