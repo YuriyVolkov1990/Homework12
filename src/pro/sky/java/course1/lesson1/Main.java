@@ -9,6 +9,13 @@ public class Main {
         Scanner s = new Scanner(System.in);
         System.out.println("Фамилия автора:");
         String surname = s.nextLine();
-        Author book = Author.createAuthor(name, surname);
+        Author author = Author.createAuthor(name, surname);
+        Scanner b = new Scanner(System.in);
+        System.out.println("Название книги:");
+        String book = b.nextLine();
+        Scanner y = new Scanner(System.in);
+        System.out.println("Год публикации:");
+        int year = y.nextInt();
+        Book bookName = Book.createBook(book, author, year);
     }
 }
