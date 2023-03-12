@@ -16,6 +16,9 @@ public class Main {
         Scanner y = new Scanner(System.in);
         System.out.println("Год публикации:");
         int year = y.nextInt();
-        Book bookName = Book.createBook(book, author, year);
+        Book bookName = Book.createBook(book, year);
+        System.out.println(author.getAuthorName() + " " + author.getAuthorSurname());
+        System.out.println(bookName.getBookName());
+        System.out.println(bookName.getYearPublishing());
     }
 }
